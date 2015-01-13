@@ -1,0 +1,28 @@
+Class: Bunny
+
+int nAllBunnies;		Sum of all alive bunnies
+int nCrazyBunnies;		Sum of all crazy bunnies
+int nFemaleBunnies;		Sum of all fertile female bunnies
+int nMaleBunnies;		Sum of all fertile male bunnies
+int nInfantBunnies;		Sum of all unfertile bunnies
+
+class Bunny
+{
+private:
+	char sex;
+	string colour;
+	int age;
+	string name;
+	int crazy;
+	class bunny* next;
+
+public:
+	Bunny(int, char)	// first parameter determines how many bunnies will be created, 2nd parameter only on gamestart 'y', else 'n' 
+
+	int countBunnies()		// returns newborn bunnies
+	void listBunnies()
+	void ageBunnies()
+	void makeBunniesCrazy()
+	
+	~Bunny()
+}
